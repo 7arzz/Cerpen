@@ -14,7 +14,7 @@ body{
 header{
   background-color: #444;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1px;
   
 }
 
@@ -58,6 +58,15 @@ header nav a{
   border-radius:10px ;
 }
 
+.btn-cerpen{
+ background-color: #008000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius:10px ;
+  margin: auto;
+}
+
 .btn:hover{
   background-color: black;
   color: white;
@@ -72,12 +81,14 @@ section h2 {
   width: 100%;
 }
 
-.projects {
+#projects {
   border: 1px solid #ddd
   padding: 20px;;
   margin-bottom: 20px;
-  width: 30%;
+  width: 95%;
 }
+
+
 
 .selengkapnya{
   background-color: pink;
