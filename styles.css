@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 body{
   font-family: Sans-Serif;
   margin: 0;
@@ -14,7 +19,7 @@ body{
 header{
   background-color: #444;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1px;
   
 }
 
@@ -58,7 +63,17 @@ header nav a{
   border-radius:10px ;
 }
 
-.btn:hover{
+.btn-cerpen{
+ background-color: #008000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius:10px ;
+  margin: auto 150px;
+  text-align: center;
+}
+
+.btn:hover,.btn-cerpen:hover{
   background-color: black;
   color: white;
 }
@@ -70,14 +85,19 @@ section{
 section h2 {
   margin-bottom:  2rem;
   width: 100%;
+  text-align: center;
+  font-family: Sans-Serif, Verdana;
 }
 
-.projects {
+#projects {
   border: 1px solid #ddd
   padding: 20px;;
   margin-bottom: 20px;
-  width: 30%;
+  width: 95%;
+  min-height: 100rem;
 }
+
+
 
 .selengkapnya{
   background-color: pink;
@@ -94,12 +114,13 @@ div .cerpen{
   margin-top: 10px;
 }
 
-.judul {
+.judul,.card-title{
   text-align: center;
   background-color: brown;
   border: 1px solid;
   border-radius: 50px;
 }
+
 
 
 h1.cerpen {
@@ -125,7 +146,6 @@ footer {
   padding: 15px 0;
   text-align: center;
   font-size: 0.9em;
-  margin-top: 40px;
 }
 
 footer .copyright {
@@ -139,6 +159,7 @@ footer .copyright {
   text-align: center;
   border-top: 2px solid #8b0000;
   margin-top: 50px;
+  margin-bottom: 0;
 }
 
 #contact .container {
@@ -232,3 +253,5 @@ footer .copyright {
   top: 0;
   z-index: 1050;
 }
+
+
